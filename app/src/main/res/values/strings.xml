@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">AttendanceApp</string>
+    <string name="lecturrer">إسم المحاضر</string>
+    <string name="hall">القاعه</string>
+    <string name="grade">الفرقة</string>
+    <string name="department">القسم</string>
+    <string name="time">الوقت</string>
+    <string name="Halls">القاعات</string>
+    <string name="Lectures">المحاضرات</string>
+    <string name="students">الطلاب</string>
+    <string name="search">بحث</string>
+    <string name="HallNumber">رقم القاعة</string>
+    <string name="coordinates">الاحداثيات</string>
+    <string name="add">اضافه</string>
+
+
+    <string-array name="gradeItems">
+            <item>1</item>
+            <item>2</item>
+            <item>3</item>
+            <item>4</item>
+        </string-array>
+    <string-array name="departmentsItems">
+        <item>general</item>
+        <item>CS</item>
+        <item>IS</item>
+    </string-array>
+    <string-array name="DayItems">
+        <item>السبت</item>
+        <item>الأحد</item>
+        <item>الاثنين</item>
+        <item>الثلاثاء</item>
+        <item>الاربعاء</item>
+        <item>الخميس</item>
+    </string-array>
+</resources>

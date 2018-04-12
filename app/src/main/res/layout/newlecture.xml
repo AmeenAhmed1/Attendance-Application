@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_margin="5dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lecturrer" />
+            <Spinner
+                android:layout_height="50dp"
+                android:layout_margin="15dp"
+                android:id="@+id/lecturerSpinner"
+                android:layout_width="match_parent"
+
+               />
+
+    <TextView
+        android:layout_margin="5dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/grade" />
+
+    <Spinner
+        android:layout_height="50dp"
+        android:layout_margin="15dp"
+        android:id="@+id/GradeSpinner"
+        android:layout_width="match_parent"
+
+        android:entries="@array/gradeItems"/>
+
+    <TextView
+        android:layout_margin="5dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/department" />
+
+    <Spinner
+        android:layout_height="50dp"
+        android:layout_margin="15dp"
+        android:id="@+id/DepartmentSpinner"
+        android:layout_width="match_parent"
+        android:entries="@array/departmentsItems"/>
+
+    <TextView
+        android:layout_margin="5dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hall" />
+
+    <Spinner
+        android:id="@+id/HallSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="15dp"
+        />
+
+    <TextView
+        android:layout_margin="5dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/time" />
+
+    <Spinner
+        android:id="@+id/DaySpinner"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:entries="@array/DayItems"
+        android:layout_margin="15dp"
+        />
+
+    <EditText
+        android:id="@+id/TimeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="15dp"
+        android:hint="@string/time"
+        android:inputType="time" />
+
+    <Button
+        android:layout_margin="5dp"
+        android:id="@+id/addButt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
